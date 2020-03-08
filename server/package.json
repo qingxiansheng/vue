@@ -1,0 +1,23 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "a.   各自独立开发  提高各自效率   \r b.   避免甩锅  \r c.   方便后期维护和迭代",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.13",
+    "multer": "^1.4.2",
+    "vue-router": "^3.1.3"
+  }
+}
